@@ -1,0 +1,20 @@
+<div class="task_list_con">
+    <h1 class="top_heading">List of Daily Tasks</h1>
+    <div class="task_list">
+        <ol>
+            <li *ngFor="let todo of todos_list">
+
+                <h3>{{todo['title']}} :</h3>
+                <p>{{todo['detail']}}</p>
+                <button id="button" (click)="Favorite_add_Todo(todo['id'])"> <small> add to favorite </small> </button> 
+                
+                <button id="button" (click)="deleteTodo(todo['id'])">Remove</button> 
+                <!-- <button id="button" (click)="EditTodo(todo['id'])">Edit</button><br> <br> -->
+                
+            </li>
+            <div *ngIf="todos_list.length==0">
+                <p>No todos to display</p>
+            </div>     
+        </ol>
+    </div>
+</div>

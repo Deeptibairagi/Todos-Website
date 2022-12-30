@@ -1,0 +1,54 @@
+@media (min-width: 1200px) {
+    .top_heading {
+        text-align: center;
+        padding-top: 5vh;
+    }
+
+    .task_list {
+        padding-left: 60vh;
+        padding-top: 1vh;  
+        padding-bottom: 60vh;  
+        padding-right: 50vh;
+    }
+
+    #button {
+        border: 1px solid black;
+        border-radius: 1vh;
+        padding: .5vh;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        margin-left: 5vh;
+        font-size:x-small
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    .top_heading {
+        text-align: center;
+        padding-top: 8vh;
+
+    }
+
+    .task_list {
+        /* padding: 60vh; */
+        padding-top: 5vh;
+        font-size: larger;
+
+    }
+
+    #button {
+        border: 2px solid black;
+        border-radius: 1vh;
+        padding: 1vh;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        margin-left: 5vh;
+    }
+
+}
+

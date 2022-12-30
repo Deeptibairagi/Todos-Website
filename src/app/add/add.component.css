@@ -1,0 +1,66 @@
+@media (min-width: 1200px) {
+    .top_heading {
+        text-align: center;
+        padding-top: 10vh;
+    }
+
+    .form_item {
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .item {
+        margin: 2vh;
+        height: 4vh;
+        width: 20vw;
+        padding: 1vh;
+        border-radius: 1vh;
+    }
+
+    .button {
+        margin: 8vh;
+        padding: 1vh;
+        align-items: center;
+        border-radius: 1vh;
+        font-weight: bold;
+        background-color: gray;
+        color: white;
+
+    }
+
+    .add_container{
+        height: 96vh;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .top_heading {
+        text-align: center;
+        padding-top: 10vh;
+    }
+
+    .form_item {
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .item {
+        margin: 2vh;
+        height: 4vh;
+        padding: 1vh;
+        border-radius: 1vh;
+    }
+
+    .button {
+        margin: 8vh;
+        padding: 2vh;
+        align-items: center;
+        border-radius: 1vh;
+        font-weight: bold;
+        background-color: gray;
+        color: white;
+
+    }
+}

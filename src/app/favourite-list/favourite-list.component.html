@@ -1,0 +1,18 @@
+<div class="fav_container">
+    <h1 class="top_heading">Favourite list</h1>
+    <div class="task_list">
+        <ol>
+            <li *ngFor="let todo of favourite_list">
+
+                <h3>{{todo['title']}} :</h3>
+                <p>{{todo['detail']}}</p>
+
+                <button id="button" (click)="delete_Fav_Todo(todo['id'])">Remove</button> 
+                
+                </li>
+                <div *ngIf="favourite_list.length===0">
+                    <p>No Favourite list to display</p>
+                </div>
+        </ol>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="add_container">
+<h1 class="top_heading">Add Daily Task </h1>
+<div class="form_item">
+    <div>
+        <input type="text" class="item" placeholder="Task Title" [formControl]="task_title">
+    </div>
+    <div>
+        <input type="text" class="item" placeholder="Task Detail" [formControl]="task_deatil">
+    </div>
+    <div>
+        <button type="submit" class="button" (click)="add_task()">Add Task</button>
+    </div>
+</div>
+</div>
